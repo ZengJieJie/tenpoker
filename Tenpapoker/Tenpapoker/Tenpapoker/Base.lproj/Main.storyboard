@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01" translatesAutoresizingMaskIntoConstraints="NO" id="Lfc-Nd-dwS">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="1eb-Us-p6J">
+                                <rect key="frame" x="218" y="7" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="GUc-fJ-CLA"/>
+                                    <constraint firstAttribute="width" constant="300" id="Tez-H8-Ftk"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7i1-xy-dyT">
+                                <rect key="frame" x="60" y="274" width="616" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLm-Cd-Fj7">
+                                        <rect key="frame" x="323" y="0.0" width="116.66666666666669" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Hard" backgroundImage="21">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Sixclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0TA-RW-dhL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdy-5G-Zg0">
+                                        <rect key="frame" x="176.66666666666666" y="0.0" width="116.33333333333334" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Normal" backgroundImage="21">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Hard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ztJ-Th-Tjh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZe-76-i4P">
+                                        <rect key="frame" x="469.66666666666657" y="0.0" width="116.33333333333331" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Rule" backgroundImage="21">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="guizeclikc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aDJ-ZP-J3i"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3GH-kN-r92">
+                                        <rect key="frame" x="30.000000000000007" y="0.0" width="116.66666666666669" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Simple" backgroundImage="21">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X9p-tZ-KX1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="xZe-76-i4P" firstAttribute="top" secondItem="7i1-xy-dyT" secondAttribute="top" id="0Ng-DJ-Det"/>
+                                    <constraint firstItem="vdy-5G-Zg0" firstAttribute="width" secondItem="3GH-kN-r92" secondAttribute="width" id="19E-Gi-7jI"/>
+                                    <constraint firstAttribute="bottom" secondItem="3GH-kN-r92" secondAttribute="bottom" id="4Gw-0m-YmU"/>
+                                    <constraint firstItem="vdy-5G-Zg0" firstAttribute="top" secondItem="7i1-xy-dyT" secondAttribute="top" id="4mQ-bW-HF8"/>
+                                    <constraint firstItem="xZe-76-i4P" firstAttribute="leading" secondItem="KLm-Cd-Fj7" secondAttribute="trailing" constant="30" id="9we-eR-Gre"/>
+                                    <constraint firstItem="xZe-76-i4P" firstAttribute="height" secondItem="3GH-kN-r92" secondAttribute="height" id="Eb4-u2-cnJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="KLm-Cd-Fj7" secondAttribute="bottom" id="FZY-A6-nnJ"/>
+                                    <constraint firstItem="vdy-5G-Zg0" firstAttribute="leading" secondItem="3GH-kN-r92" secondAttribute="trailing" constant="30" id="Kfg-jW-Piq"/>
+                                    <constraint firstItem="vdy-5G-Zg0" firstAttribute="height" secondItem="3GH-kN-r92" secondAttribute="height" id="Mj3-cu-b8E"/>
+                                    <constraint firstItem="xZe-76-i4P" firstAttribute="width" secondItem="3GH-kN-r92" secondAttribute="width" id="QnC-gW-iQx"/>
+                                    <constraint firstItem="KLm-Cd-Fj7" firstAttribute="width" secondItem="3GH-kN-r92" secondAttribute="width" id="U67-bq-rHT"/>
+                                    <constraint firstItem="KLm-Cd-Fj7" firstAttribute="height" secondItem="3GH-kN-r92" secondAttribute="height" id="Wat-cM-tDY"/>
+                                    <constraint firstItem="3GH-kN-r92" firstAttribute="leading" secondItem="7i1-xy-dyT" secondAttribute="leading" constant="30" id="ZWf-3A-mdw"/>
+                                    <constraint firstAttribute="height" constant="40" id="hSp-YX-nEG"/>
+                                    <constraint firstItem="KLm-Cd-Fj7" firstAttribute="leading" secondItem="vdy-5G-Zg0" secondAttribute="trailing" constant="30" id="hnQ-tR-DK5"/>
+                                    <constraint firstItem="3GH-kN-r92" firstAttribute="top" secondItem="7i1-xy-dyT" secondAttribute="top" id="oej-eh-F7s"/>
+                                    <constraint firstAttribute="bottom" secondItem="vdy-5G-Zg0" secondAttribute="bottom" id="ofM-O4-POM"/>
+                                    <constraint firstItem="KLm-Cd-Fj7" firstAttribute="top" secondItem="7i1-xy-dyT" secondAttribute="top" id="ogk-UL-yxf"/>
+                                    <constraint firstAttribute="trailing" secondItem="xZe-76-i4P" secondAttribute="trailing" constant="30" id="syD-Ii-Uiq"/>
+                                    <constraint firstAttribute="bottom" secondItem="xZe-76-i4P" secondAttribute="bottom" id="y83-4r-XGA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7i1-xy-dyT" secondAttribute="trailing" constant="60" id="GHX-Dt-Ij5"/>
+                            <constraint firstAttribute="bottom" secondItem="Lfc-Nd-dwS" secondAttribute="bottom" id="KKP-ty-40a"/>
+                            <constraint firstItem="Lfc-Nd-dwS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZME-Dn-eUx"/>
+                            <constraint firstAttribute="bottom" secondItem="7i1-xy-dyT" secondAttribute="bottom" constant="100" id="ZRI-Dt-I0e"/>
+                            <constraint firstItem="1eb-Us-p6J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cXA-Fi-5Y4"/>
+                            <constraint firstItem="1eb-Us-p6J" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="gUa-kS-wIb"/>
+                            <constraint firstAttribute="trailing" secondItem="Lfc-Nd-dwS" secondAttribute="trailing" id="qKp-Fa-beU"/>
+                            <constraint firstItem="7i1-xy-dyT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="sD8-bT-LD6"/>
+                            <constraint firstItem="Lfc-Nd-dwS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yif-th-9jl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.282608695652179" y="-2.8985507246376816"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="01" width="2796" height="1290"/>
+        <image name="21" width="279" height="117"/>
+        <image name="logo" width="1506" height="1095"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
