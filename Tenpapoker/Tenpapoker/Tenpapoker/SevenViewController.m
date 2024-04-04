@@ -206,14 +206,13 @@
             }else if (_btn7.tag==10){
                 [self.arraytop replaceObjectAtIndex:6 withObject:self.arraytop[2]];
                 [self.arraytop replaceObjectAtIndex:2 withObject:@10];
-                self.btn7.alpha=7;
-                self.btn7.tag=5;
+                self.btn7.alpha=1;
+                self.btn7.tag=7;
                 self.btn3.tag=10;
                 self.btn3.alpha=0;
             }
             
-        }
-        else  if (adcint==4) {
+        }else  if (adcint==4) {
             if (_btn3.tag==10){
                 [self.arraytop replaceObjectAtIndex:2 withObject:self.arraytop[3]];
                 [self.arraytop replaceObjectAtIndex:3 withObject:@10];
