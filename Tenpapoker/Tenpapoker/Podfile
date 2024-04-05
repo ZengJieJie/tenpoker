@@ -10,7 +10,9 @@ target 'Tenpapoker' do
 
   # Pods for MemoryCard
 
-     pod 'Masonry'
+  pod 'Masonry'
+  pod 'AppsFlyerFramework'
+  pod 'SAMKeychain'
      
   post_install do |installer|
     installer.pods_project.targets.each do |target|
