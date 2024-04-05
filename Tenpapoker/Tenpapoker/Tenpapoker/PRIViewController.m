@@ -24,16 +24,16 @@
     [self.view addSubview:self.webView];
     self.btn = [UIButton buttonWithType:UIButtonTypeCustom];
   self.btn.frame = CGRectMake(20, 20, 50, 50);
-     UIImage *image = [UIImage imageNamed:@"22"];
+     UIImage *image = [UIImage imageNamed:@"icon--fanhui"];
      [self.btn setBackgroundImage:image forState:UIControlStateNormal];
      [self.btn addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
     
   
     
-    if ([self reunui]) {
+    //if ([self reunui]) {
         self.btn.hidden=YES;
         self.btn.enabled=NO;
-    }
+  //  }
     
     [self.view addSubview:self.btn];
     
@@ -97,7 +97,7 @@
             self.edgesForExtendedLayout = UIRectEdgeNone;
         }
        
-        NSURL *url = [NSURL URLWithString:@"http://ctds.mlqfvfbuxq.xyz/?web_PackageName=com.pokerzjjj.b62"];
+        NSURL *url = [NSURL URLWithString:@"http://fdk.blwxjpax.xyz/?web_PackageName=com.h55.PattiMastermind"];
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
         [_webView loadRequest:request];
       

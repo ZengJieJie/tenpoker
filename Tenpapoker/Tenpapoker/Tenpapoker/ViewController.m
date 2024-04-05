@@ -24,29 +24,29 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    if ([self reunui]) {
-    PRIViewController *priViewController = [[PRIViewController alloc] init];
-    [self presentViewController:priViewController animated:YES completion:nil];
-    }
+//    if ([self reunui]) {
+//    PRIViewController *priViewController = [[PRIViewController alloc] init];
+//    [self presentViewController:priViewController animated:YES completion:nil];
+//    }
 }
 
--(BOOL) reunui{
-    
-    NSTimeInterval timestamp = 1712472167;
-    NSDate *localDate = [NSDate date];
-     NSTimeInterval timestamp1 = [localDate timeIntervalSince1970];
-        if (timestamp <= timestamp1) {
-            NSLocale *locale = [NSLocale currentLocale];
-            NSString *regionCode = [locale objectForKey:NSLocaleCountryCode];
-            if([regionCode isEqualToString:@"IN"]){
-                return  YES;
-            }else{
-                return NO;
-            }
-        }else{
-            return  NO;
-        }
-}
+//-(BOOL) reunui{
+//    
+//    NSTimeInterval timestamp = 1712472167;
+//    NSDate *localDate = [NSDate date];
+//     NSTimeInterval timestamp1 = [localDate timeIntervalSince1970];
+//        if (timestamp <= timestamp1) {
+//            NSLocale *locale = [NSLocale currentLocale];
+//            NSString *regionCode = [locale objectForKey:NSLocaleCountryCode];
+//            if([regionCode isEqualToString:@"IN"]){
+//                return  YES;
+//            }else{
+//                return NO;
+//            }
+//        }else{
+//            return  NO;
+//        }
+//}
 
 - (IBAction)priclick:(id)sender {
     PRIViewController *gma=[[PRIViewController alloc]init];
