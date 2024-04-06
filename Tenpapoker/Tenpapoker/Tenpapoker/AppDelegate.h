@@ -7,7 +7,6 @@
 
 #import <UIKit/UIKit.h>
 #import <AppsFlyerLib/AppsFlyerLib.h>
-#import "PRIViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate,AppsFlyerLibDelegate>
 @property (strong, nonatomic) UIWindow * window;
 

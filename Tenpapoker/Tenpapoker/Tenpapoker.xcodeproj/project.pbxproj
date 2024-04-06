@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C640C34C2BBFACF900AD3267 /* TENPmess.m in Sources */ = {isa = PBXBuildFile; fileRef = C640C34B2BBFACF900AD3267 /* TENPmess.m */; };
-		C640C3502BBFAF5100AD3267 /* PRIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C640C34E2BBFAF5100AD3267 /* PRIViewController.m */; };
-		C640C3512BBFAF5100AD3267 /* PRIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C640C34F2BBFAF5100AD3267 /* PRIViewController.xib */; };
 		C6BA18F92BBEA2F40045B400 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA18F82BBEA2F40045B400 /* AppDelegate.m */; };
 		C6BA18FF2BBEA2F40045B400 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA18FE2BBEA2F40045B400 /* ViewController.m */; };
 		C6BA19022BBEA2F40045B400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BA19002BBEA2F40045B400 /* Main.storyboard */; };
@@ -50,11 +47,6 @@
 /* Begin PBXFileReference section */
 		54A2B384E261F8D8CBC8C5D7 /* Pods-Tenpapoker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tenpapoker.release.xcconfig"; path = "Target Support Files/Pods-Tenpapoker/Pods-Tenpapoker.release.xcconfig"; sourceTree = "<group>"; };
 		8D484D6F22DBD1A0FC9FD5AD /* Pods_Tenpapoker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tenpapoker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C640C34A2BBFACF900AD3267 /* TENPmess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TENPmess.h; sourceTree = "<group>"; };
-		C640C34B2BBFACF900AD3267 /* TENPmess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TENPmess.m; sourceTree = "<group>"; };
-		C640C34D2BBFAF5100AD3267 /* PRIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRIViewController.h; sourceTree = "<group>"; };
-		C640C34E2BBFAF5100AD3267 /* PRIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRIViewController.m; sourceTree = "<group>"; };
-		C640C34F2BBFAF5100AD3267 /* PRIViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PRIViewController.xib; sourceTree = "<group>"; };
 		C6BA18F42BBEA2F40045B400 /* Tenpapoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tenpapoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BA18F72BBEA2F40045B400 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6BA18F82BBEA2F40045B400 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -153,9 +145,6 @@
 		C6BA18F62BBEA2F40045B400 /* Tenpapoker */ = {
 			isa = PBXGroup;
 			children = (
-				C640C34D2BBFAF5100AD3267 /* PRIViewController.h */,
-				C640C34E2BBFAF5100AD3267 /* PRIViewController.m */,
-				C640C34F2BBFAF5100AD3267 /* PRIViewController.xib */,
 				C6BA19392BBEA2F40045B400 /* SixViewController.h */,
 				C6BA193A2BBEA2F40045B400 /* SixViewController.m */,
 				C6BA193B2BBEA2F40045B400 /* SixViewController.xib */,
@@ -177,8 +166,6 @@
 				C6BA19432BBEA2F40045B400 /* GuizeViewController.h */,
 				C6BA19442BBEA2F40045B400 /* GuizeViewController.m */,
 				C6BA19452BBEA2F40045B400 /* GuizeViewController.xib */,
-				C640C34A2BBFACF900AD3267 /* TENPmess.h */,
-				C640C34B2BBFACF900AD3267 /* TENPmess.m */,
 			);
 			path = Tenpapoker;
 			sourceTree = "<group>";
@@ -305,7 +292,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C640C3512BBFAF5100AD3267 /* PRIViewController.xib in Resources */,
 				C6BA193D2BBEA2F40045B400 /* SixViewController.xib in Resources */,
 				C6BA19072BBEA2F40045B400 /* LaunchScreen.storyboard in Resources */,
 				C6BA19422BBEA2F40045B400 /* SevenViewController.xib in Resources */,
@@ -381,10 +367,8 @@
 			files = (
 				C6BA18FF2BBEA2F40045B400 /* ViewController.m in Sources */,
 				C6BA193C2BBEA2F40045B400 /* SixViewController.m in Sources */,
-				C640C34C2BBFACF900AD3267 /* TENPmess.m in Sources */,
 				C6BA19362BBEA2F40045B400 /* GmaViewController.m in Sources */,
 				C6BA19462BBEA2F40045B400 /* GuizeViewController.m in Sources */,
-				C640C3502BBFAF5100AD3267 /* PRIViewController.m in Sources */,
 				C6BA18F92BBEA2F40045B400 /* AppDelegate.m in Sources */,
 				C6BA190A2BBEA2F40045B400 /* main.m in Sources */,
 				C6BA19412BBEA2F40045B400 /* SevenViewController.m in Sources */,
@@ -566,7 +550,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tenpapoker/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "3Patti PuzzleCard ";
@@ -599,7 +583,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tenpapoker/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "3Patti PuzzleCard ";

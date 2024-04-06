@@ -7,7 +7,6 @@
 
 #import "AppDelegate.h"
 #import <AppsFlyerLib/AppsFlyerLib.h>
-#import "TENPmess.h"
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import "ViewController.h"
 @interface AppDelegate ()
@@ -28,7 +27,7 @@
     [AppsFlyerLib shared].delegate = self;
     [[AppsFlyerLib shared] start];
     
-    [TENPmess setAfuuid:[self gitid]];
+ 
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ViewController *myViewController = [storyboard instantiateViewControllerWithIdentifier:@"viewload"];

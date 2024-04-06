@@ -48,11 +48,7 @@
 //        }
 //}
 
-- (IBAction)priclick:(id)sender {
-    PRIViewController *gma=[[PRIViewController alloc]init];
-    [self presentViewController:gma animated:YES completion:nil];
-    
-}
+
 
 - (IBAction)btnclick:(id)sender {
 
